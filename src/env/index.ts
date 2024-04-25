@@ -5,7 +5,6 @@ if (process.env.NODE_ENV === "test") {
   config({ path: ".env.test" });
 } else {
   config();
-  s;
 }
 
 const envSchema = z.object({
